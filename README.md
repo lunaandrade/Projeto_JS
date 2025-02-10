@@ -21,5 +21,5 @@ Jogo interativo de cores desenvolvido como projeto final de JavaScript. O objeti
 
 ## Visualização 💡
 Acesse o jogo clicando no link abaixo:
-[Visualizar no GitHub Pages](#adicione_o_link_aqui)
+[Visualizar no GitHub Pages](https://lunaandrade.github.io/Projeto_JS/)
 
