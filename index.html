@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Cores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Jogo das Cores</h1>
+    <p>Clique na cor que corresponde ao nome mostrado, não na cor de fundo, antes que o tempo acabe!</p>
+    <div id="cor_box"></div>
+    <p id="corCerta"></p>
+    <div id="botaoCont"></div>
+    <p id="pontos">Pontuação: 0</p>
+    <p id="timer">Tempo restante: 5s</p>
+  </div>
+
+  <div id="game-over-modal" class="modal">
+    <div class="modal-cont">
+      <h2>Tempo esgotado!</h2>
+      <p>Você perdeu! Sua pontuação foi: <span id="pont-final"></span></p>
+      <button onclick="resetarJogo()">Tentar novamente</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
